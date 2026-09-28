@@ -1,0 +1,42 @@
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(90deg, #004080, #0099ff);
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav button {
+    margin: 0 10px;
+    padding: 12px 25px;
+    cursor: pointer;
+    border: none;
+    background-color: #0073e6;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #0059b3;
+}

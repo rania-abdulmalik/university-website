@@ -1,0 +1,73 @@
+body {
+    background-color: #f4f4f4;
+}
+
+main {
+    padding: 30px;
+    background-color: #ffffff;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 1000px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.welcome-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #e9f7ff;
+    border-radius: 8px;
+    border: 1px solid #cceeff;
+}
+
+.welcome-section h2 {
+    color: #004080;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.welcome-section p {
+    font-size: 1.2em;
+    color: #555;
+}
+/* تنسيقات زر التنقل */
+.nav-button {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 25px;
+    cursor: pointer;
+    border: none;
+    background-color: #0073e6;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* لإزالة الخط تحت الرابط */
+    text-align: center;
+}
+
+.nav-button:hover {
+    background-color: #0059b3;
+}
+
+/* تنسيقات زر تسجيل الخروج */
+.logout-button {
+    display: inline-block;
+    background-color: #dc3545;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}

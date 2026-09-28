@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>تسجيل الدخول - جامعة آزال للتنمية البشرية </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+     <div class="login-container">
+        <div class="login-page">
+            <form onsubmit="return checkLogin(event)">
+                <h1 class="login-title">تسجيل الدخول</h1>
+                <div class="input-row">
+                    <label for="username">اسم المستخدم</label>
+                    <input type="text" id="username" placeholder="أدخل اسم المستخدم">
+                </div>
+                <div class="input-row">
+                    <label for="password">كلمة المرور</label>
+                    <input type="password" id="password" placeholder="أدخل كلمة المرور">
+                </div>
+                <button type="button" onclick="checkLogin()">دخول</button>
+                <p id="error" class="error"></p>
+            </form>
+        </div>
+    </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

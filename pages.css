@@ -1,0 +1,75 @@
+body {
+    background-color: #f4f4f4;
+}
+
+main {
+    padding: 30px;
+    background-color: #ffffff;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 1000px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.college-image {
+   width: 400px;
+   height: 200px;  
+}
+.welcome-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #e9f7ff;
+    border-radius: 8px;
+    border: 1px solid #cceeff;
+}
+
+.welcome-section h2 {
+    color: #004080;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.welcome-section p {
+    font-size: 1.2em;
+    color: #555;
+}
+.list-container ul {
+   list-style-type:disc ; 
+   list-style-position: inside; 
+   margin: 0;
+   padding: 0;
+  
+}
+
+.list-container  ul li {
+    padding: 0;
+    margin: 0;
+     text-align:start;
+}
+.list-container{
+   
+   padding-right: 50%;
+   
+}
+
+
+.back-button {
+    display: inline-block;
+    background-color:  #0099ff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(244, 232, 232, 0.1);
+    text-decoration: none;
+    text-align: cener;
+}
+
+.back-button:hover {
+    background-color:  #004080;
+}
